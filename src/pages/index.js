@@ -28,7 +28,7 @@ const BlogIndex = ({ data, location }) => {
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
-
+          {/* post.fields.slug 不是一个默认方法，而是访问在 GraphQL 查询结果中某个特定帖子对象的 fields 属性下的 slug 属性的方式。在 Gatsby 中，slug 通常是一个用于构建 URL 的字符串，它可以在创建页面时生成，也可以在 Markdown 文件的 frontmatter 或其他数据源中指定。 */}
           return (
             <li key={post.fields.slug}>
               <article
