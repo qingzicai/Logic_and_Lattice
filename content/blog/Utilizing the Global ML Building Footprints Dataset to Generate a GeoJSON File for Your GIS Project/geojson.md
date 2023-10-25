@@ -1,6 +1,7 @@
 ---
 title: Utilizing the Global ML Building Footprints Dataset to Generate a GeoJSON File for Your GIS Project
 date: "2023-10-24T18:30:35Z"
+description: "A step-by-step guide"
 ---
 
 [Global ML Building Footprints Dataset](https://github.com/microsoft/GlobalMLBuildingFootprints)
