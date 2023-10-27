@@ -34,7 +34,7 @@
   --fontFamily-serif: "Georgia", Cambria, "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-sans);
-  --font-heading: var(--fontFamily-serif);
+  --font-heading: "Segoe UI Symbol";
   --fontWeight-normal: 400;
   --fontWeight-bold: 700;
   --fontWeight-black: 800;
@@ -54,7 +54,7 @@
   --fontSize-7: 2.986rem;
   --color-primary: #1a118f;
   --color-text: #223e50;
-  --color-text-light: #4f5969;
+  --color-text-light: #3b4350;
   --color-heading: #1f4151;
   --color-heading-black: black;
   --color-accent: #b1ccd6;
@@ -119,10 +119,12 @@ h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
   color: var(--color-heading-black);
+  letter-spacing: 0.02em;  /* 调整字母间距 */
 }
 
 h2 {
   font-size: var(--fontSize-5);
+  letter-spacing: 0.02em;  /* 调整字母间距 */
 }
 
 h3 {
@@ -301,7 +303,7 @@ a:focus {
 }
 
 .blog-post header h1 {
-  margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
+  margin: var(--spacing-1) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }
 
 .blog-post header p {
